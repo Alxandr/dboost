@@ -12,7 +12,7 @@ reqwest = { version = "0.11.27", default-features = false, features = [
 	"gzip",
 	"rustls-tls",
 ] }
-reqwest-middleware = "0.2.5"
+reqwest-middleware = "0.4.0"
 serde = { version = "1.0.200", features = ["derive"] }
 serde_json = { version = "1.0.109", default-features = false, features = [
 	"std",
