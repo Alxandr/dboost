@@ -28,7 +28,7 @@ tokio = { version = "1.37.0", features = [
 	"signal",
 ] }
 tokio-util = { version = "0.7.10", default-features = false }
-tracing = "0.1.37"
+tracing = "0.1.40"
 tracing-forest = { version = "0.1.6", default-features = false, features = [
 	"tokio",
 	"uuid",
@@ -37,7 +37,7 @@ tracing-forest = { version = "0.1.6", default-features = false, features = [
 	"ansi",
 	"smallvec",
 ] }
-tracing-subscriber = { version = "0.3.17", default-features = false, features = [
+tracing-subscriber = { version = "0.3.18", default-features = false, features = [
 	"std",
 ] }
 tvdb-client = { version = "0.0.0", path = "../../lib/tvdb-client" }
