@@ -28,7 +28,7 @@ jobs:
 
       # this fixes some caching issues in later stpes
       - name: Run sccache-cache
-        uses: mozilla-actions/sccache-action@v0.0.4
+        uses: mozilla-actions/sccache-action@v0.0.7
 
       - uses: pnpm/action-setup@v2
         name: Install pnpm
