@@ -22,7 +22,7 @@ edition = "2021"
 
 [dependencies]
 async-trait = "0.1.80"
-axum = { version = "0.6.20", features = ["http2", "tracing"] }
+axum = { version = "0.8.0", features = ["http2", "tracing"] }
 axum-healthcheck = { version = "0.0.0", path = "./lib/axum-healthcheck" }
 built = { version = "0.7.2", default-features = false, features = ["semver"] }
 cfg-if = { version = "1.0.0", default-features = false }
