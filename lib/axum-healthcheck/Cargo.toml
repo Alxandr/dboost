@@ -5,6 +5,6 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-axum = { version = "0.6.20", features = ["json"] }
+axum = { version = "0.8.0", features = ["json"] }
 indexmap = { version = "2.1.0", features = ["serde"] }
 serde = { version = "1.0.200", features = ["derive"] }
