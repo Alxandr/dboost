@@ -27,7 +27,7 @@ devDependencies:
     version: 5.0.5
   '@tailwindcss/typography':
     specifier: ^0.5.9
-    version: 0.5.12(tailwindcss@3.3.3)
+    version: 0.5.16(tailwindcss@3.3.3)
   '@types/node':
     specifier: ^20.5.1
     version: 20.5.1
@@ -656,10 +656,10 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@tailwindcss/typography@0.5.12(tailwindcss@3.3.3):
-    resolution: {integrity: sha512-CNwpBpconcP7ppxmuq3qvaCxiRWnbhANpY/ruH4L5qs2GCiVDJXde/pjj2HWPV1+Q4G9+V/etrwUYopdcjAlyg==}
+  /@tailwindcss/typography@0.5.16(tailwindcss@3.3.3):
+    resolution: {integrity: sha512-0wDLwCVF5V3x3b1SGXPCDcdsbDHMBe+lkFzBRaHeLvNi+nrrnZ1lA18u+OTWO8iSWU2GxUOCvlXtDuqftc1oiA==}
     peerDependencies:
-      tailwindcss: '>=3.0.0 || insiders'
+      tailwindcss: '>=3.0.0 || insiders || >=4.0.0-alpha.20 || >=4.0.0-beta.1'
     dependencies:
       lodash.castarray: 4.4.0
       lodash.isplainobject: 4.0.6
@@ -1750,7 +1750,7 @@ packages:
       postcss: ^8.2.2
     dependencies:
       postcss: 8.4.27
-      postcss-selector-parser: 6.0.16
+      postcss-selector-parser: 6.1.2
       postcss-value-parser: 4.2.0
     dev: true
 
@@ -1898,7 +1898,7 @@ packages:
       caniuse-api: 3.0.0
       cssnano-utils: 4.0.2(postcss@8.4.27)
       postcss: 8.4.27
-      postcss-selector-parser: 6.0.16
+      postcss-selector-parser: 6.1.2
     dev: true
 
   /postcss-minify-font-values@6.1.0(postcss@8.4.27):
@@ -1942,7 +1942,7 @@ packages:
       postcss: ^8.4.31
     dependencies:
       postcss: 8.4.27
-      postcss-selector-parser: 6.0.16
+      postcss-selector-parser: 6.1.2
     dev: true
 
   /postcss-nested@6.0.1(postcss@8.4.27):
@@ -2104,8 +2104,8 @@ packages:
       util-deprecate: 1.0.2
     dev: true
 
-  /postcss-selector-parser@6.0.16:
-    resolution: {integrity: sha512-A0RVJrX+IUkVZbW3ClroRWurercFhieevHB38sr2+l9eUClMqome3LmEmnhlNy+5Mr2EYN6B2Kaw9wYdd+VHiw==}
+  /postcss-selector-parser@6.1.2:
+    resolution: {integrity: sha512-Q8qQfPiZ+THO/3ZrOrO0cJJKfpYCagtMUkXbnEfmgUjwXg6z/WBeOyS9APBBPCTSiDV+s4SwQGu8yFsiMRIudg==}
     engines: {node: '>=4'}
     dependencies:
       cssesc: 3.0.0
@@ -2130,7 +2130,7 @@ packages:
       postcss: ^8.4.31
     dependencies:
       postcss: 8.4.27
-      postcss-selector-parser: 6.0.16
+      postcss-selector-parser: 6.1.2
     dev: true
 
   /postcss-value-parser@4.2.0:
@@ -2297,7 +2297,7 @@ packages:
     dependencies:
       browserslist: 4.23.0
       postcss: 8.4.27
-      postcss-selector-parser: 6.0.16
+      postcss-selector-parser: 6.1.2
     dev: true
 
   /sucrase@3.34.0:
