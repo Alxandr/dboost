@@ -22,7 +22,7 @@ futures = { version = "0.3.30", default-features = false, features = ["std"] }
 hmac = { version = "0.12.1", features = ["std"] }
 http = "0.2.12"
 pbkdf2 = "0.12.2"
-rand = { version = "0.8.5" }
+rand = { version = "0.9.0" }
 sea-orm = { version = "0.12.15", default-features = false, features = [
 	"with-uuid",
 	"with-time",
